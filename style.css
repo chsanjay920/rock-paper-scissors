@@ -1,0 +1,50 @@
+body{
+    background-image: url(https://image.freepik.com/free-vector/abstract-white-shapes-background_79603-1362.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+  background-size: cover;
+}
+h1{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: rgb(255, 60, 0);
+    text-shadow: -2px 2px 0 #000,
+                          2px 2px 0 #000,
+                         2px -2px 0 #000,
+                        -2px -2px 0 #000;
+    font-size: 50px;
+}   
+h2{
+    font-family: 'Cinzel', serif;
+    color: rgb(255, 0, 123);
+}
+.winner{
+    margin: 10px 100px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+.winner h1{
+    text-align: center;
+    background-color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 196, 0);
+    padding: 5px;
+}
+.user{
+    /* border: 5px solid yellow; */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+img{
+    width: 150px;
+    border-radius: 10%;
+    border: 5px solid rgb(228, 156, 21);
+    margin-left: 8px;
+}
+.machine{
+    /* border: 5px solid yellow; */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}

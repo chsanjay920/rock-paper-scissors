@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper & scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+</head>
+<body align="center">
+    <div class="container">
+        <div class="logo">
+            <h1>Rock paper & scissors</h1>
+        </div>
+    </div>
+    <div class="winner">
+        <h1 id="winner"> winner</h1>
+    </div>
+    <div class="container user">
+        <h2>USER"S GAME</h2>
+        <a onclick="userclick('paper')"><img src="./images/paper.png" alt="" id="paper"></a>
+        <a onclick="userclick('rock')"><img src="./images/rock.png" alt="" id="rock"></a>
+        <a onclick="userclick('scissors')"><img src="./images/scissors.png" alt=""  id="scissors"></a>
+    </div>
+    <div class="container machine">
+        <h2>MACHINE'S GAME</h2>
+        <img src="./images/paper.png" alt="" id="paper1">
+        <img src="./images/rock.png" alt="" id="rock1">
+        <img src="./images/scissors.png" alt="" id="scissors1">
+    </div>
+</body>
+</html>
