@@ -8,20 +8,20 @@ function userclick(Choice){
     if((Choice == "rock" && machinechoice == "scissors") || (Choice == "scissors" && machinechoice == "paper") || (Choice =="paper" && machinechoice=="rock") ){
         //user winns
         document.getElementById("winner").innerHTML = "USER WON THE MATCH";
-        document.getElementById(Choice).style.borderColor="green";
-        document.getElementById(machinechoice+"1").style.borderColor = "red";
+        document.getElementById(Choice).style.borderColor="#00e600";
+        document.getElementById(machinechoice+"1").style.borderColor = "#ff3300";
     }
     else if((Choice == "rock" && machinechoice=="paper")||(Choice =="scissors" && machinechoice =="rock") ||(Choice == "paper" && machinechoice=="scissors") ){
         //machine winns
         document.getElementById("winner").innerHTML = "MACHINE WON THE MATCH";
-        document.getElementById(Choice).style.borderColor="red";
-        document.getElementById(machinechoice+"1").style.borderColor = "green";
+        document.getElementById(Choice).style.borderColor="#ff3300";
+        document.getElementById(machinechoice+"1").style.borderColor = "#00e600";
     }
     else{
         //draw match
         document.getElementById("winner").innerHTML = "DRAW MATCH";
-        document.getElementById(Choice).style.borderColor="green";
-        document.getElementById(machinechoice+"1").style.borderColor = "green";
+        document.getElementById(Choice).style.borderColor="#00e600";
+        document.getElementById(machinechoice+"1").style.borderColor = "#00e600";
     }
 }
 function setinitialmode(){

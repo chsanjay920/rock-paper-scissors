@@ -16,7 +16,7 @@ h1{
 }   
 h2{
     font-family: 'Cinzel', serif;
-    color: rgb(255, 0, 123);
+    color: rgb(255, 0, 123);    
 }
 .winner{
     margin: 10px 100px;
@@ -39,8 +39,9 @@ h2{
 img{
     width: 150px;
     border-radius: 10%;
-    border: 5px solid rgb(228, 156, 21);
+    border: 8px solid rgb(228, 156, 21);
     margin-left: 8px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .machine{
     /* border: 5px solid yellow; */
