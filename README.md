@@ -2,4 +2,4 @@
 rock paper scissors using javascript
 
 # DEMO 
-[link](https://vercel.com/chsanjay920/rock-paper-scissors)
+[ROCK_PAPER_SCISSORS](https://rock-paper-scissors-self.vercel.app/)
